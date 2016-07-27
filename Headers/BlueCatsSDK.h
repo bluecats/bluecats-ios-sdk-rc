@@ -26,7 +26,6 @@ FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
 #import "BCBeacon+Analytics.h"
 #import "BCBeacon+Capabilities.h"
 #import "BCCategory.h"
-#import "BCCategory+Analytics.h"
 #import "BCCustomValue.h"
 #import "BCDefinitions.h"
 #import "BCEddystone.h"
