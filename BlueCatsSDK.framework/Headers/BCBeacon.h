@@ -9,7 +9,7 @@
 #import "BCJSONModel.h"
 #import "BCDefinitions.h"
 
-@class BCMapPoint, BCBatteryStatus, BCEddystone, BCSite,BCTemperatureData;
+@class BCMapPoint, BCBatteryStatus, BCEddystone, BCSite, BCTemperatureData, BCBeaconLoudness, BCBeaconMode, BCTargetSpeed, BCBeaconRegion;
 
 ///The `BCBeacon` class defines an object that represents a beacon.
 @interface BCBeacon : BCJSONModel <NSCopying>
@@ -25,7 +25,7 @@
 ///The name of the beacon.  This can be used to organize your beacons by color or room for example.
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSDate *lastRangedAt;
-
+@property (nonatomic, copy) NSString *wireframeURLString;
 ///@name iBeacon Properties
 
 ///The Proximity UUID of the beacon.
@@ -48,6 +48,23 @@
 ///The BCProximity value of the beacon.
 @property (nonatomic, assign) BCProximity proximity;
 
+///@name Versioned properties
+
+///The advertising mode of the beacon, such as iBeacon or BlueCats Secure
+@property (nonatomic, copy) BCBeaconMode *beaconMode;
+///The beacon loundess / range
+@property (nonatomic, copy) BCBeaconLoudness *beaconLoudness;
+///The beacon advertisment frequency
+@property (nonatomic, copy) BCTargetSpeed *targetSpeed;
+///Version number for the current settings
+@property (nonatomic, copy) NSNumber *version;
+///Version number for settings not yet applied to the beacon. Will be nil if the settings are up to date.
+@property (nonatomic, copy) NSNumber *pendingVersion;
+
+///@name Firmware properties
+
+///The current firmware version of the beacon
+@property (nonatomic, copy) NSString *firmwareVersion;
 
 ///@name Context Properties
 
@@ -70,6 +87,8 @@
 ///The ID of the team the beacon is within.
 @property (nonatomic, copy) NSString *teamID;
 @property (nonatomic, copy) BCSite *site;
+@property (nonatomic, copy) NSString *siteID;
+@property (nonatomic, copy) NSString *siteName;
 
 @property(nonatomic, copy) BCTemperatureData * temperatureData;
 

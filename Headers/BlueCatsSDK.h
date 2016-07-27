@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for BlueCatsSDK.
-FOUNDATION_EXPORT double BlueCatsVersionNumber;
+FOUNDATION_EXPORT double BlueCatsSDKVersionNumber;
 
 //! Project version string for BlueCatsSDK.
 FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
@@ -18,10 +18,13 @@ FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
 #import "BCApp.h"
 #import "BCBatteryStatus.h"
 #import "BCBeacon.h"
+#import "BCBeaconLoudness.h"
 #import "BCBeaconManager.h"
+#import "BCBeaconMode.h"
 #import "BCBeaconRegion.h"
 #import "BCBeaconVisit.h"
 #import "BCBeacon+Analytics.h"
+#import "BCBeacon+Capabilities.h"
 #import "BCCategory.h"
 #import "BCCategory+Analytics.h"
 #import "BCCustomValue.h"
@@ -45,12 +48,13 @@ FOUNDATION_EXPORT const unsigned char BlueCatsSDKVersionString[];
 #import "BCResource.h"
 #import "BCSite.h"
 #import "BCSiteAccessType.h"
+#import "BCTargetSpeed.h"
+#import "BCTemperatureData.h"
 #import "BCTrigger.h"
 #import "BCTriggeredEvent.h"
 #import "BCZone.h"
 #import "BCZoneMonitor.h"
 #import "NSPredicate+BCBeaconFilter.h"
-#import "BCTemperatureData.h"
 
 @interface BlueCatsSDK : NSObject
 

@@ -20,13 +20,25 @@
 		<data>
 		earoqbCliNIMSBgIH/MMCvrzj7k=
 		</data>
+		<key>Headers/BCBeacon+Capabilities.h</key>
+		<data>
+		SMmDzSSW9DkF5mKWezQtRKaDLgk=
+		</data>
 		<key>Headers/BCBeacon.h</key>
 		<data>
-		L4GArJJ6oOZD5jh4tcCRsvrZ1O0=
+		5/kVopLmFlK2f+DwTRYeHXdeLdg=
+		</data>
+		<key>Headers/BCBeaconLoudness.h</key>
+		<data>
+		VtnXwXlle5RHc9cCd2D1+4zsnSA=
 		</data>
 		<key>Headers/BCBeaconManager.h</key>
 		<data>
 		6TphokdQDrdIPq/XaH7MdY/CP+8=
+		</data>
+		<key>Headers/BCBeaconMode.h</key>
+		<data>
+		roMgPhkoxl953RDMj31Xhn3b4ls=
 		</data>
 		<key>Headers/BCBeaconRegion.h</key>
 		<data>
@@ -82,7 +94,7 @@
 		</data>
 		<key>Headers/BCLassoManager.h</key>
 		<data>
-		x0RSXsLvoWJQ9oRcxcmV3nH33Qw=
+		fa5w9grQc6OxONxLp405FVdFZyc=
 		</data>
 		<key>Headers/BCLocalNotification.h</key>
 		<data>
@@ -128,6 +140,10 @@
 		<data>
 		F8Lb4l/sALlqPoTmDlMYI1xSDqc=
 		</data>
+		<key>Headers/BCTargetSpeed.h</key>
+		<data>
+		DBXEgz259Ln3BuSu0ETmLdyBUxQ=
+		</data>
 		<key>Headers/BCTemperatureData.h</key>
 		<data>
 		OHtOaZyRa+T725nSkXnRcmRLM9M=
@@ -150,7 +166,7 @@
 		</data>
 		<key>Headers/BlueCatsSDK.h</key>
 		<data>
-		aLXnRtwamKFGTFP29zG1JFbN7W4=
+		P4p+AFJyXYWfjVYc1VGxcnsuYss=
 		</data>
 		<key>Headers/NSPredicate+BCBeaconFilter.h</key>
 		<data>
@@ -158,7 +174,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		T+q4UFMBsqv2etYJ1/SKwLtxERw=
+		MNNCqLk1JYvCNd31pq3pfm5F+3A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -211,15 +227,37 @@
 			fV6DYX22YRBlICdQTOiQNIy2Tk3sdAHtys01QqBn88I=
 			</data>
 		</dict>
+		<key>Headers/BCBeacon+Capabilities.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SMmDzSSW9DkF5mKWezQtRKaDLgk=
+			</data>
+			<key>hash2</key>
+			<data>
+			UKTiBRSE6xae8iglDC3ZzL/SZGpzusqHXf+NQcqmo18=
+			</data>
+		</dict>
 		<key>Headers/BCBeacon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			L4GArJJ6oOZD5jh4tcCRsvrZ1O0=
+			5/kVopLmFlK2f+DwTRYeHXdeLdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			wmWartSG/WAa+b6biU9+zF/6fmx1fC6agWC3BaDYptQ=
+			tt8eWiJtMi9XaEN9wHr1fL6baXf/0ShFGV5cgXwjrn4=
+			</data>
+		</dict>
+		<key>Headers/BCBeaconLoudness.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VtnXwXlle5RHc9cCd2D1+4zsnSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			e2CME6oHyNalLbO3pRGThviUMQHJbdOtXG13xY4Gs9A=
 			</data>
 		</dict>
 		<key>Headers/BCBeaconManager.h</key>
@@ -231,6 +269,17 @@
 			<key>hash2</key>
 			<data>
 			VXe1gf9ArwUYCyQoCDDYLrj8w424yvmBAzQBZ/0nIs8=
+			</data>
+		</dict>
+		<key>Headers/BCBeaconMode.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			roMgPhkoxl953RDMj31Xhn3b4ls=
+			</data>
+			<key>hash2</key>
+			<data>
+			5Mfq2swTqAWhs7cGEtctuD6NhtyoJh943lF3Km+342o=
 			</data>
 		</dict>
 		<key>Headers/BCBeaconRegion.h</key>
@@ -380,11 +429,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x0RSXsLvoWJQ9oRcxcmV3nH33Qw=
+			fa5w9grQc6OxONxLp405FVdFZyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			H7ISQv4/JeSj28N3fYjQ6lQ4w5hXejBo/gW3/f0BIHw=
+			46Igah2YjSYI1/Zcbpoa43WvRLHIouOokeo62coXpn8=
 			</data>
 		</dict>
 		<key>Headers/BCLocalNotification.h</key>
@@ -508,6 +557,17 @@
 			J42yq2SDn4vLPchZUO/AQoVmXIwDhpe2KbE+zH0+UJg=
 			</data>
 		</dict>
+		<key>Headers/BCTargetSpeed.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DBXEgz259Ln3BuSu0ETmLdyBUxQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			dHJ6GQf7Kl5Vh0kDdGDJxX4XtDsy5uzZAZ0wgHEDAow=
+			</data>
+		</dict>
 		<key>Headers/BCTemperatureData.h</key>
 		<dict>
 			<key>hash</key>
@@ -567,11 +627,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aLXnRtwamKFGTFP29zG1JFbN7W4=
+			P4p+AFJyXYWfjVYc1VGxcnsuYss=
 			</data>
 			<key>hash2</key>
 			<data>
-			mfSjEHsdI+I+vc96Gyq5ldC8jyu1PHu7E/XOiumhjfY=
+			zIg1rZW0pRtICnxrg/Q5aDsAEHpOMnTFDo9JgiWj238=
 			</data>
 		</dict>
 		<key>Headers/NSPredicate+BCBeaconFilter.h</key>

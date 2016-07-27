@@ -71,6 +71,12 @@ didFailToRedeemDictionary:(NSDictionary *)dictionary
  */
 - (void)didEnterLasso:(BCLasso *)lasso;
 /**
+ *  Tells the delegate that the device is still in range of the specified BCLasso.
+ *
+ *  @param lasso The `BCLasso` object entered by the device.
+ */
+- (void)didRangeLasso:(BCLasso *)lasso;
+/**
  *  Tells the delegate that the device did exit the range of the specified BCLasso.
  *
  *  @param lasso The `BCLasso` object exited by the device.
