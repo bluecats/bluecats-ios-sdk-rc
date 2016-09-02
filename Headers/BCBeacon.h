@@ -150,5 +150,10 @@
                       status:(void (^)(NSString *status))status
                      failure:(void (^)(NSError *error))failure;
 
+- (void)updateSettingsOfflineWithSettings:(NSDictionary *)settingsForKey
+                                  success:(void (^)(void))success
+                                   status:(void (^)(NSString *))status
+                                  failure:(void (^)(NSError *error))failure;
+
 @end
 

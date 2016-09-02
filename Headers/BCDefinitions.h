@@ -425,6 +425,7 @@ extern NSString * const BCSettingsUpdateSecurityTypeKey;
 extern NSString * const BCSettingsUpdateAuthKeyKey;
 extern NSString * const BCSettingsUpdatePrivacyDurationKey;
 extern NSString * const BCSettingsUpdateBeaconRegionIDKey;
+extern NSString * const BCSettingsUpdateAdSchemaKey;
 
 extern NSString *const BCEddyConfigDataSlotDictionaryKey;
 extern NSString *const BCEddyConfigAdvertisingIntervalKey;
